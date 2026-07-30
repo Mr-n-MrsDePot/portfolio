@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Developer Portfolio — AI Voice Apps &amp; Systems</title>
+  <meta name="description" content="Portfolio of shipped Flutter + VAPI + Firebase AI voice products (RYAN, Taylor) and multi-agent systems." />
+  <style>
+    :root { --bg:#0b0f14; --card:#121821; --text:#e8eef6; --muted:#93a4b8; --accent:#5b9dff; --accent2:#7c5cff; --line:#1e2a3a; --teal:#14b8a6; --amber:#f59e0b; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:"Segoe UI",system-ui,sans-serif; background:radial-gradient(1200px 600px at 10% -10%,#1a2740 0%,var(--bg) 55%); color:var(--text); line-height:1.55; }
+    .wrap { max-width:980px; margin:0 auto; padding:48px 20px 80px; }
+    .eyebrow { color:var(--accent); font-size:.85rem; letter-spacing:.08em; text-transform:uppercase; font-weight:600; }
+    h1 { font-size:clamp(2rem,4vw,2.75rem); margin:8px 0 12px; line-height:1.15; }
+    .lead { color:var(--muted); font-size:1.1rem; max-width:52ch; }
+    .links { display:flex; flex-wrap:wrap; gap:12px; margin-top:20px; }
+    a.btn { display:inline-block; padding:10px 16px; border-radius:10px; text-decoration:none; font-weight:600; border:1px solid var(--line); color:var(--text); background:var(--card); }
+    a.btn.primary { background:linear-gradient(135deg,var(--accent),var(--accent2)); border:none; color:#fff; }
+    section { margin-top:48px; }
+    h2 { font-size:1.25rem; margin:0 0 8px; }
+    .section-lead { color:var(--muted); margin:0 0 16px; font-size:.95rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px; }
+    .card:hover { border-color:#35507a; }
+    .card.featured { border-color:#2a4a6e; box-shadow:0 0 0 1px rgba(91,157,255,.12); }
+    .card h3 { margin:0 0 4px; font-size:1.15rem; }
+    .badge { display:inline-block; font-size:.7rem; letter-spacing:.06em; text-transform:uppercase; font-weight:700; padding:3px 8px; border-radius:999px; margin-bottom:10px; }
+    .badge.ios { background:rgba(91,157,255,.15); color:#8ec0ff; border:1px solid rgba(91,157,255,.35); }
+    .badge.b2b { background:rgba(20,184,166,.12); color:#5eead4; border:1px solid rgba(20,184,166,.35); }
+    .card p { margin:0; color:var(--muted); font-size:.95rem; }
+    .tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:14px; }
+    .tag { font-size:.75rem; padding:4px 8px; border-radius:999px; background:#0e1622; border:1px solid var(--line); color:#b9c9dc; }
+    .stack { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+    .stack span { font-size:.8rem; padding:6px 10px; border-radius:8px; background:#0e1622; border:1px solid var(--line); color:var(--text); }
+    footer { margin-top:56px; color:var(--muted); font-size:.9rem; border-top:1px solid var(--line); padding-top:20px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="eyebrow">Developer portfolio</div>
+      <h1>AI voice products, multi-agent systems, and software that ships.</h1>
+      <p class="lead">I build production Flutter apps powered by VAPI, Firebase, and real call infrastructure — plus multi-agent AI systems and systems software.</p>
+      <div class="links">
+        <a class="btn primary" href="https://github.com/Mr-n-MrsDePot" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="mailto:tpott1980@gmail.com">Email</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Flagship apps</h2>
+      <p class="section-lead">Shipped / in App Store pipeline — showcase of Flutter + VAPI + Firebase cloud backends. Source stays private; architecture and stack are public.</p>
+      <div class="grid">
+        <article class="card featured">
+          <span class="badge ios">iOS · Consumer</span>
+          <h3>RYAN</h3>
+          <p><strong>R</strong>epresenting <strong>Y</strong>ou <strong>A</strong>s <strong>N</strong>eeded — AI calling assistant that places outbound calls to utilities, banks, and service providers on the user’s behalf. Profiles and account details once; agent handles the call. Call bundles, credit gating, Sign in with Apple, App Store review-ready.</p>
+          <div class="tags">
+            <span class="tag">Flutter</span>
+            <span class="tag">VAPI</span>
+            <span class="tag">Firebase Cloud Functions</span>
+            <span class="tag">Provider / GoRouter</span>
+            <span class="tag">Sign in with Apple</span>
+            <span class="tag">iOS App Store</span>
+          </div>
+        </article>
+        <article class="card featured">
+          <span class="badge b2b">iOS · B2B / PropTech</span>
+          <h3>Taylor (BizCall)</h3>
+          <p>B2B SaaS for property managers and small businesses: bulk automated negotiation calls, savings tracking, tenant/account context injected into the agent, and a polished dual-theme dashboard. Same voice-AI stack pattern as RYAN, tailored for commercial workflows.</p>
+          <div class="tags">
+            <span class="tag">Flutter</span>
+            <span class="tag">VAPI</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">go_router</span>
+            <span class="tag">PropTech</span>
+            <span class="tag">iOS App Store</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Stack I ship with</h2>
+      <div class="stack">
+        <span>Flutter / Dart</span>
+        <span>VAPI (voice AI)</span>
+        <span>Firebase Cloud Functions</span>
+        <span>Node.js</span>
+        <span>Twilio (telephony path)</span>
+        <span>Provider / state</span>
+        <span>GoRouter</span>
+        <span>iOS / App Store Connect</span>
+        <span>Python</span>
+        <span>CrewAI + xAI Grok</span>
+        <span>Streamlit</span>
+        <span>TypeScript</span>
+        <span>Git</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Open-source &amp; other work</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>MUPO Sales Team</h3>
+          <p>Multi-agent sales system: scout → outreach → qualify → proposal, human handoff, Streamlit ops UI, email providers behind a live-send safety gate. CrewAI + xAI Grok.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">CrewAI</span><span class="tag">xAI</span><span class="tag">Streamlit</span></div>
+          <p style="margin-top:14px"><a href="https://github.com/Mr-n-MrsDePot/mupo-sales-team" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600;text-decoration:none">View repository</a></p>
+        </article>
+        <article class="card">
+          <h3>NES Emulator</h3>
+          <p>From-scratch NES emulator in Python: 6502 CPU, PPU, mappers 0–4, Xbox controller support via pygame.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Emulation</span><span class="tag">Systems</span></div>
+          <p style="margin-top:14px"><a href="https://github.com/Mr-n-MrsDePot/nes-emulator" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600;text-decoration:none">View repository</a></p>
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <div>Mr-n-MrsDePot · Portfolio focused on AI voice products (RYAN, Taylor) and systems that ship</div>
+    </footer>
+  </div>
+</body>
+</html>
