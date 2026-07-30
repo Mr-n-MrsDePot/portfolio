@@ -15,7 +15,7 @@ Source for production apps stays private (keys, App Store builds). This site sho
 | App | Focus | Stack highlights |
 |-----|--------|------------------|
 | **RYAN** | Consumer AI calling assistant (utilities, banks, services) | Flutter, VAPI, Firebase Cloud Functions, Sign in with Apple, iOS |
-| **Taylor (BizCall)** | B2B PropTech automated negotiation calls | Flutter, VAPI, Firebase, go_router, dual-theme SaaS UI |
+| **Taylor** | B2B PropTech automated negotiation calls | Flutter, VAPI, Firebase, go_router, dual-theme SaaS UI |
 
 ## Open-source on GitHub
 
